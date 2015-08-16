@@ -2,8 +2,7 @@ Libft Graphics
 =====
 
 #### About
-**Graphic library** for the Libft project of the [42 school](http://42.fr).
-***Looking for the Libft repo ? https://github.com/ncoden/libft***
+**Graphic library** for the [Libft project](https://github.com/ncoden/libft) of the [42 school](http://42.fr).
 
 Please do not hesitate to add or enhance the current code to this library.
 All modifications must respect the [42 norm](http://ncoden.fr/datas/42/norm.pdf)
