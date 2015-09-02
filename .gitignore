@@ -1,7 +1,3 @@
-# Executable & submodules
-libft
-lib/minilibx
-
 # Object files
 *.o
 *.ko
