@@ -6,11 +6,12 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/08 16:13:36 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:56:05 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:50:04 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <mlx.h>
+#include "libft-graphics/3denv.h"
 
 void		ft_3denvupdate(t_3denv *e)
 {

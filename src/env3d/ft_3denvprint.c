@@ -6,11 +6,13 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/03 19:31:07 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:57:38 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:49:05 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <stddef.h>
+#include "libft/basics/memory.h"
+#include "libft-graphics/3denv.h"
 
 void		ft_3denvprint(t_3denv *e)
 {

@@ -6,11 +6,15 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/29 19:24:01 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:55:50 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:48:01 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <stdlib.h>
+#include <mlx.h>
+#include "libft-graphics/2denv.h"
+#include "libft-graphics/3denv.h"
+#include "libft-graphics/img.h"
 
 t_3denv				*ft_3denvnew(void *mlx, size_t x, size_t y, char *title)
 {

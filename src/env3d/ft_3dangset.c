@@ -6,11 +6,11 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/29 15:06:52 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:55:42 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:16:45 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include "libft-graphics/3denv.h"
 
 void		ft_3dangset(t_3dang *ang, double x, double y, double z)
 {

@@ -1,25 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft-graphics.h                                   :+:      :+:    :+:   */
+/*   vec.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/11/03 17:59:44 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:57:12 by ncoden           ###   ########.fr       */
+/*   Created: 2014/12/22 11:05:07 by ncoden            #+#    #+#             */
+/*   Updated: 2015/09/02 09:05:03 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_GRAPHICS_H
-# define LIBFT_GRAPHICS_H
+#ifndef LIBFT_VEC_H
+# define LIBFT_VEC_H
 
-# include "mlx.h"
+# include "libft-graphics/2denv.h"
 
-# include "libft.h"
+typedef struct	s_vec
+{
+	t_2dpos	pos;
+	int		len;
+	double	ang;
+}				t_vec;
 
-# include "libft_2denv.h"
-# include "libft_3denv.h"
-# include "libft_img.h"
-# include "libft_vec.h"
+t_vec			*ft_vecnew(t_2dpos *pos, int len, double ang);
+void			ft_vecset(t_vec *vec, t_2dpos *pos, int len, double ang);
+
+void			ft_printvec(t_2denv *e, t_vec *vec, int color);
 
 #endif

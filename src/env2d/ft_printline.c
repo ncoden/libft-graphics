@@ -6,11 +6,13 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/25 18:48:21 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:55:33 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:13:33 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <mlx.h>
+#include "libft/basics/numbers.h"
+#include "libft-graphics/2denv.h"
 
 void		ft_printline(t_2denv *e, t_2dpos *from, t_2dpos *to, int color)
 {

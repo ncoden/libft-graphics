@@ -6,11 +6,13 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/29 21:03:34 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:56:21 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:51:12 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <math.h>
+#include "libft-graphics/2denv.h"
+#include "libft-graphics/3denv.h"
 
 void		ft_3dto2dpos(t_3denv *e, t_3dpos *pos3d, t_2dpos *pos2d)
 {

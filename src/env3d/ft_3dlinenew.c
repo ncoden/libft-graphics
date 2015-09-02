@@ -6,11 +6,13 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/08 23:56:08 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:56:07 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:50:27 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <stdlib.h>
+#include "libft/basics/memory.h"
+#include "libft-graphics/3denv.h"
 
 t_3dline		*ft_3dlinenew(t_3dpos *from, t_3dpos *to, int color)
 {

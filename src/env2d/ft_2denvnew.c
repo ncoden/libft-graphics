@@ -6,11 +6,13 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/29 19:08:50 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 13:34:13 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:09:20 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <stdlib.h>
+#include <mlx.h>
+#include "libft-graphics/2denv.h"
 
 t_2denv		*ft_2denvnew(void *mlx, size_t x, size_t y, char *title)
 {

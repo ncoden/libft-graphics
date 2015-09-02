@@ -1,19 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft_img.h                                        :+:      :+:    :+:   */
+/*   img.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncoden <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/22 10:56:26 by ncoden            #+#    #+#             */
-/*   Updated: 2015/02/03 08:09:28 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:04:13 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_IMG_H
 # define LIBFT_IMG_H
 
-# include "libft_core.h"
+# include <stddef.h>
+# include "libft/basics/booleans.h"
 
 typedef struct	s_img
 {

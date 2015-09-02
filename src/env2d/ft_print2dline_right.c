@@ -6,11 +6,13 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/05 15:42:09 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:55:31 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:12:02 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include "libft/basics/memory.h"
+#include "libft-graphics/2denv.h"
+#include "libft-graphics/img.h"
 
 static inline void		print_pixel(t_img *img, int x, int y, int color)
 {

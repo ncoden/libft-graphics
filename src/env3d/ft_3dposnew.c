@@ -6,11 +6,12 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/29 15:05:29 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:56:10 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:50:39 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <stdlib.h>
+#include "libft-graphics/3denv.h"
 
 t_3dpos		*ft_3dposnew(int x, int y, int z)
 {

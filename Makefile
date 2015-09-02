@@ -6,7 +6,7 @@
 #    By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/03 18:00:49 by ncoden            #+#    #+#              #
-#    Updated: 2015/08/18 16:19:20 by ncoden           ###   ########.fr        #
+#    Updated: 2015/09/02 09:01:58 by ncoden           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,9 +32,8 @@ LNKFLAGS =
 SRCDIR = src
 OBJDIR = obj
 INCDIR =\
-	includes\
+	include\
 	$(LIBFT_DIR)\
-	$(LIBFT_DIR)/includes\
 	$(MINILIBX_DIR)
 
 # SOURCES

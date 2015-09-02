@@ -1,21 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft_2denv.h                                      :+:      :+:    :+:   */
+/*   2denv.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/22 11:00:11 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:46:24 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:06:27 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_2DENV_H
 # define LIBFT_2DENV_H
 
-# include "libft_core.h"
-# include "libft_img.h"
-# include "libft_lst.h"
+# include <stddef.h>
+# include "libft/containers/list.h"
+# include "libft-graphics/img.h"
 
 typedef struct	s_2dpos
 {

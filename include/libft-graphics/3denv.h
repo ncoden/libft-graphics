@@ -1,26 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft_3denv.h                                      :+:      :+:    :+:   */
+/*   3denv.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/22 11:03:00 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:54:20 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:06:12 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_3DENV_H
 # define LIBFT_3DENV_H
 
-# include "libft_core.h"
-# include "libft_2denv.h"
-# include "libft_img.h"
-
-typedef enum	e_type
-{
-	T_3DLINE,
-}				t_pos;
+# include <stddef.h>
+# include "libft/containers/list.h"
+# include "libft-graphics/2denv.h"
+# include "libft-graphics/img.h"
 
 typedef struct	s_3dpos
 {

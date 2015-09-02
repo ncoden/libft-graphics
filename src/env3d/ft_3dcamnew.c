@@ -6,11 +6,14 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/29 15:14:03 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 15:55:45 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:22:47 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <stddef.h>
+#include "libft/basics/memory.h"
+#include "libft-graphics/2denv.h"
+#include "libft-graphics/3denv.h"
 
 t_3dcam		*ft_3dcamnew(t_3dpos *pos, t_3dang *ang, int d, t_2dsize *view)
 {

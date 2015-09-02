@@ -6,11 +6,13 @@
 /*   By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/12/04 20:33:42 by ncoden            #+#    #+#             */
-/*   Updated: 2015/08/18 16:00:25 by ncoden           ###   ########.fr       */
+/*   Updated: 2015/09/02 09:52:43 by ncoden           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft-graphics.h"
+#include <stdlib.h>
+#include <mlx.h>
+#include "libft-graphics/img.h"
 
 t_img				*ft_imgnew(void *mlx, size_t x, size_t y)
 {
