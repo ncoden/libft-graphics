@@ -6,13 +6,13 @@
 #    By: ncoden <ncoden@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/03 18:00:49 by ncoden            #+#    #+#              #
-#    Updated: 2015/09/02 09:01:58 by ncoden           ###   ########.fr        #
+#    Updated: 2015/09/02 18:14:27 by ncoden           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # DEPENDENCIES
-LIBFT_DIR = libs/libft
-MINILIBX_DIR = libs/minilibx
+LIBFT_H = libs/libft/include
+MINILIBX_H = libs/minilibx
 
 # **************************************************************************** #
 
@@ -33,8 +33,8 @@ SRCDIR = src
 OBJDIR = obj
 INCDIR =\
 	include\
-	$(LIBFT_DIR)\
-	$(MINILIBX_DIR)
+	$(LIBFT_H)\
+	$(MINILIBX_H)
 
 # SOURCES
 SRC =\
